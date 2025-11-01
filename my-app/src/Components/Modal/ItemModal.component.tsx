@@ -49,7 +49,7 @@ const ItemModal: React.FC<ItemModalProps> = ({
           {editingItem ? "Edit Item" : "Create New Item"}
         </DialogTitle>
 
-        <DialogContent className="space-y-4 mt-2">
+        <DialogContent className="space-y-4" dividers>
           <TextField
             label="Title"
             name="title"
